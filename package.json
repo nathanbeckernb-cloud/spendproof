@@ -1,0 +1,15 @@
+{
+  "name": "spendproof",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test:intelligence": "npm --prefix packages/quotecheck-intelligence test",
+    "test": "npm run test:intelligence",
+    "typecheck": "npm --prefix apps/mobile run typecheck",
+    "lint": "npm --prefix apps/mobile run lint"
+  }
+}
