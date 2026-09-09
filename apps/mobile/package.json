@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "expo": "~57.0.17",
+    "expo-document-picker": "~57.0.1",
+    "expo-image": "~57.0.4",
+    "expo-image-picker": "~57.0.16",
     "expo-router": "~57.0.20",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
